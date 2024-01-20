@@ -1,2 +1,5 @@
+import {MDCRipple} from '@material/ripple';
 import {MDCTextField} from '@material/textfield';
-const textField = new MDCTextField(document.querySelector<HTMLElement>('.mdc-text-field'));
+
+new MDCTextField(document.querySelector('.food-field'));
+new MDCRipple(document.querySelector('.eat-button'));

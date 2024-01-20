@@ -1,21 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MDC Web Demo - Favorite Food</title>
+  <link rel="stylesheet" href="bundle.css">
+</head>
+<body>
 
-<html>
-    <title>something</title>
-    <body>
+  <div class="food-field mdc-text-field">
+    <input type="text" class="mdc-text-field__input" id="food-input" >
+    <label class="mdc-floating-label" for="food-input">Favorite food</label>
+    <div class="mdc-line-ripple"></div>
+  </div>
+  
+  <button class="eat-button mdc-button">
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Eat</span>
+  </button>
 
-        <label class="mdc-text-field mdc-text-field--filled">
-            <span class="mdc-text-field__ripple"></span>
-            <input type="text" class="mdc-text-field__input" aria-labelledby="my-label">
-            <span class="mdc-floating-label" id="my-label">Label</span>
-            <span class="mdc-line-ripple"></span>
-        </label>
-
-        <h1>This page is under maintenance</h1>
-        <h2>Grip_All</h2>
-        <link rel="stylesheet" href="styles.css">
-        <button class="mdc-button mdc-button--raised">
-            <span class="mdc-button__label">Contained Button</span>
-        </button>
-    </body>
+  <script src="bundle.js" async></script>
+</body>
 </html>
