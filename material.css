@@ -1510,8 +1510,8 @@
     line-height: 16px;
 }
 
-
-
+@import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
+@import url('https://fonts.googleapis.com/css?family=Manrope:700|OpenSans:400');
 * {
     margin: 0;
     padding: 0;
@@ -1532,10 +1532,10 @@
 
 
 h1 {
-    font-family: 'Open Sans', serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  font-weight: 900;
+  text-transform:uppercase;
 }
 
 .fejszoveg {
