@@ -1531,8 +1531,9 @@
 }
 
 
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1 { 
+  color: rgb(67, 67, 67);
+  font-family: 'Inter', sans-serif;
 
   font-weight: 900;
   text-transform:uppercase;
