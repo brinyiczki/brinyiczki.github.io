@@ -1528,14 +1528,15 @@
     display: flex;
     justify-content:center;
     float: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
 }
 
 
-
+h1 {
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
 
 .fejszoveg {
     text-align: center;
