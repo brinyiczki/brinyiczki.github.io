@@ -1,3 +1,203 @@
+/* Loader 2 */
+.loader-2 {
+      display: block;
+      height: 32px;
+      width: 32px;
+      -webkit-animation: loader-2-1 3s linear infinite;
+              animation: loader-2-1 3s linear infinite;
+  }
+  @-webkit-keyframes loader-2-1 {
+      0%   { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes loader-2-1 {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+  .loader-2 span {
+      display: block;
+      position: absolute;
+      top: 0; left: 0;
+      bottom: 0; right: 0;
+      margin: auto;
+      height: 32px;
+      width: 32px;
+      clip: rect(16px, 32px, 32px, 0);
+      -webkit-animation: loader-2-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+              animation: loader-2-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+  }
+  @-webkit-keyframes loader-2-2 {
+      0%   { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes loader-2-2 {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+  .loader-2 span::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0; left: 0;
+      bottom: 0; right: 0;
+      margin: auto;
+      height: 32px;
+      width: 32px;
+      border: 3px solid transparent;
+      border-top: 3px solid #232323;
+      border-radius: 50%;
+      -webkit-animation: loader-2-3 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+              animation: loader-2-3 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+  }
+  @-webkit-keyframes loader-2-3 {
+      0%   { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes loader-2-3 {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+  .loader-2 span::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0; left: 0;
+      bottom: 0; right: 0;
+      margin: auto;
+      height: 32px;
+      width: 32px;
+      border: 3px solid rgba(255, 255, 255, .5);
+      border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+/* Loader 4 */
+.loader-4 {
+	height: 32px;
+	width: 32px;
+}
+.loader-4::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	width: 12px;
+	height: 12px;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	background: #232323;
+	border-radius: 50%;
+	-webkit-animation: loader-4-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-4-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-4-1 {
+	0%   { -webkit-transform: scale(0); opacity: 0; }
+	50%  { -webkit-transform: scale(1); opacity: 1; }
+	100% { -webkit-transform: scale(0); opacity: 0; }
+}
+@keyframes loader-4-1 {
+	0%   { transform: scale(0); opacity: 0; }
+	50%  { transform: scale(1); opacity: 1; }
+	100% { transform: scale(0); opacity: 0; }
+}
+.loader-4 span {
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	height: 32px;
+	width: 32px;
+	-webkit-animation: loader-4-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-4-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-4-2 {
+	0%   { -webkit-transform: rotate(0deg); }
+	50%  { -webkit-transform: rotate(180deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes loader-4-2 {
+	0%   { transform: rotate(0deg); }
+	50%  { transform: rotate(180deg); }
+	100% { transform: rotate(360deg); }
+}
+.loader-4 span::before,
+.loader-4 span::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	height: 12px;
+	width: 12px;
+	background: #232323;
+	border-radius: 50%;
+	-webkit-animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-4-3 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(-16px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-4-3 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(-16px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader-4 span::after {
+	-webkit-animation: loader-4-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-4-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-4-4 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(16px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-4-4 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(16px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Matter 0.2.2 */
 
 /* Components */
@@ -1512,6 +1712,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
 @import url('https://fonts.googleapis.com/css?family=Manrope:700|OpenSans:400');
+
 * {
     margin: 0;
     padding: 0;
@@ -1520,21 +1721,62 @@
 }
 
 
+
+
 .fejlec {
     background-color: #ededed;
-    width:100%;
-    height: 100px;
-    align-items: center;
     display: flex;
-    justify-content:center;
-    float: 0;
+    justify-content: left;
+    width:100svw;
+    height: 70px;
+    vertical-align:middle;
+
 }
 
+
+
+.matter-button-contained {
+    text-align:center;
+    margin: 5px;
+    width:20vh;
+    height: 80%;
+ 
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:auto;
+    
+}
+
+
+body {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 100%;
+    width: 100svw;
+}
+
+
+
+.centered-div {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100svw; 
+    height: 50px;
+    
+
+
+    background-color: transparent; /* Set black background color */
+}
 
 h1 { 
   color: rgb(67, 67, 67);
   font-family: 'Inter', sans-serif;
-
+  
   font-weight: 900;
   text-transform:uppercase;
 }
@@ -1542,4 +1784,4 @@ h1 {
 .fejszoveg {
     text-align: center;
     float:left;
-  }
+}
